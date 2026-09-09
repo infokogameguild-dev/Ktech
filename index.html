@@ -24,12 +24,22 @@ color: orange;
 font-weight: bold;
 font-style: italic;
 }
-body {
-background-color: #071A2B;
-color: white;
+body{
+animation: bgchange 4s infinite alternate;
 padding: 20px;
 margin: 0;
 min-width: 320px;
+}
+@keyframes bgchange{
+0%{
+background-color: crimson;
+}
+50%{
+background-color: lightblue;
+}
+100%{
+background-color: yellow;
+}
 }
 table {
 border: 3px solid black;
@@ -75,6 +85,7 @@ color: white;
 body>p {
 color: navy;
 font-size: 20px;
+}
 #CONTACT {
 display: none;
 justify-content: center;
@@ -136,7 +147,7 @@ margin-left: 27px!important
 <main>
 <h1>Web Developer</h1>
 <p>
-I am a <mark>programmer</mark> who take every job seriously.
+I am a <mark>programmer</mark> who take every job seriously
 </p>
 <progress>kel</progress>
 <form>
@@ -174,4 +185,4 @@ I combine product strategy, user research, wireframing, prototyping, and visual 
 </form>
 </ul>
 </body>
-</html>
+    </html>
