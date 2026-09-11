@@ -1,180 +1,312 @@
 <!doctype html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    
+<meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Ktech Empires | Web Developer & UI/UX Designer</title>
-    <meta name="description" content="Ktech Empires is focused on web development, UI/UX design, fintech solutions, gaming interfaces, and AI-powered platforms.">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Ktech Empires">
+    
+<meta name="description" content="Ktech Empires is focused on web development, UI/UX design, fintech solutions, gaming interfaces, and AI-powered platforms.">
+    
+<meta name="robots" content="index, follow">
+    
+<meta name="author" content="Ktech Empires">
+
 <meta name="color-scheme" content="dark">
+
 <style>
+
 mark {
+
 background-color: orange;
+
 }
+
 #ABOUT {
+
 text-decoration: underline;
+
 }
-#ABOUT h2 {
+
+#ABOUT h2 
+{
+
 text-align: center;
+
 font-size: 30px;
+
 }
+
 #ABOUT h2:hover {
+
 color: orange;
+
 font-weight: bold;
+
 font-style: italic;
+
 }
+
 body{
 background-image:url("KTech.png");
-background-repeat: no-repeat;
-background-size: cover;
+background-size:cover;
+background-repeat:no-repeat;
 background-attachment: fixed;
 background-position: center;
-margin: 0;
-min-width: 320px;
+display:block;
+justify-content:center;
+align-items:center;
+min-width: 340px;
 }
-table {
-border: 3px solid black;
-border-radius: 0%;
-text-align: center;
-}
-table th {
-border: 3px solid black;
-border-radius: 0%;
-}
+
+
 nav {
+
 font-family: Calibri;
+
 font-size: 25px;
+
 font-weight: bold;
+
 text-align: right;
+
 list-style:none;
-}
-.lg {
-font-family: Times New Roman;
-font-size: 30px;
-color: orange;
-text-align: left;
-}
-button {
-background-color: orange;
-}
-button:hover {
-background-color: #0B1F33;
-}
-form {
-background-color: black;
-justify-content: center;
-align-items: center;
-border-width: 50px;
-height: 50px;
-object-position: center;
-text-align: center;
-}
-form h2 {
-background-color: #111;
-color: white;
-}
-body>p {
-color: navy;
-font-size: 20px;
-}
-#CONTACT {
-display: block;
-justify-content: center;
-align-content: center;
-}
-}
-#SERVICE {
-display: none;
-justify-content: center;
-align-content: center
-}
-#toggle {
-width: 50px;
-height: 25px;
-background: #555;
-border-radius: 20px
-}
-#toggle::before {
-content: "";
-display: block;
-width: 21px;
-height: 21px;
-background: white;
-border-radius: 50%;
-margin: 2px
-}
-.on {
-background: #08f!important
-}
-.on::before {
-margin-left: 27px!important
-}
-@media (max-width: 600px) {
-    body {
-        padding: 15px;
-    }
 
 }
+
+.lg {
+
+font-family: Times New Roman;
+
+font-size: 30px;
+
+color: orange;
+
+text-align: left;
+
+}
+
+button {
+
+background-color: orange;
+
+}
+
+button:hover {
+
+background-color: #0B1F33;
+
+}
+
+form {
+
+background-color: black;
+
+justify-content: center;
+
+align-items: center;
+
+border-width: 50px;
+
+height: 50px;
+
+object-position: center;
+
+text-align: center;
+
+}
+
+form h2 {
+
+background-color: #111;
+
+color: white;
+
+}
+
+body>p {
+
+color: navy;
+
+font-size: 20px;
+
+}
+
+#CONTACT {
+
+display: block;
+
+justify-content: center;
+
+align-content: center;
+
+}
+
+
+#SERVICE {
+
+display: block;
+
+justify-content: center;
+
+align-content: center;
+
+}
+
+
+@media (max-width: 600px)
+body {
+        
+padding: 15px;
+    
+}
+
+
+}
+#SERVICE h2 
+{
+
+text-align: center;
+
+font-size: 30px;
+
+}
+label{
+animation: text 1s infinite alternate;
+text-align: center;
+font-family: Times new roman;
+font-style: italic;
+}
+@keyframes text{
+0%{
+color:yellow;
+}
+100%{
+color:green;
+}
+}
+
+
 </style>
 
+
 </head>
+
 <body>
+
 <header>
-<div id="toggle" aria-label="Dark mode"></div>
+
 <div class=lg>
 <p>
 <b>Ktech empires●</b><br>
 <progress></progress>
 </p>
 </div>
+
 <nav aria-label="Main navigation">
+
 <a href=#>HOME</a>
+
 <a href=#ABOUT>ABOUT</a>
+
 <a href=#SERVICE>SERVICE</a>
+
 <a href=#CONTACT>CONTACT</a>
-<input type="text" placeholder="Type to search"><button onclick="alert('found')">Search</button>
+
+<input type="text" placeholder="Type to search">
+<button onclick="alert('found')">Search</button>
+
 </nav>
+
 </header>
+
 <main>
+
 <h1>Web Developer</h1>
+
 <p>
 I am a <mark>programmer</mark> who take every job seriously
 </p>
-<progress>kel</progress>
+
+<progress></progress>
+
 <form>
+
 <h2>Sign up</h2>
-<label for="signup-email">Email</label><input id="signup-email" name="email" type="email" placeholder="Enter your email" required><br>
-<label for="signup-password">Password</label><input id="signup-password" name="password" type="password" placeholder="Enter password here" required><br>
+
+<label for="signup-email"><b>Email</b></label>
+<input id="signup-email" name="email" type="email" placeholder="Enter your email" required><br>
+
+<label for="signup-password"><b>Password</b></label>
+<input id="signup-password" name="password" type="password" placeholder="Enter password here" required><br>
+
 <button type="submit">Sign in</button>
+
 </form>
+
 <br><br>
+
 <div id=ABOUT>
-<br><h2>About us</h2><br>
+<br>
+<h2>About us</h2><br>
+
 <p>
-<i>I am a UI/UX designer and product-focused creator passionate about building clean, intuitive, and scalable digital<br> experiences. My work focuses on mobile applications, fintech solutions, gaming interfaces, and AI-powered<br> platforms.<br><br>
+<i>I am a UI/UX designer and product-focused creator passionate about building clean, intuitive, and scalable digital experiences.<br> My work focuses on mobile applications, fintech solutions, gaming interfaces, and AI-powered<br> platforms.<br><br>
 
 I combine product strategy, user research, wireframing, prototyping, and visual design to create solutions that are both<br> functional and visually engaging.</i>
 </p>
+
 </div>
+
 <div id="SERVICE">
-<h2>Our service</h2>
-</div>
-<div id=CONTACT>
+
+<h2>Our service</h2><br>
 <ul>
-<form>
-<h2>Contact us</h2>
-<label>Full name</label>
-<input id="full-name" name="full-name" type="text" placeholder="JOHN JEFFREY"><br>
-<label>Gmail</label>
-<input type="email" placeholder="name@host.com"><br>
-<label>Tel</label>
-<input id="tel" name="tel" type="tel" placeholder="+000 101-123-456"><br>
-<label>Message</label><br>
-<textarea></textarea>
-<legend>♡</legend>
-<button type="submit">Submit</button>
-</form>
+<li><b>Website development:</b> We design webisite's that are visually and productivitly stuning, they are are scalable focusing on the products capabilty rather than the first hand image first and function later; <br>Our focus is on the work rather than the face giving everything equality.<br></li>
+<li><b>Graphic design:</b> We create eyecatching design to suit your business and make your work look more captivating.<br></li>
+<li><b>AI for productivity:</b> AI nowadays is more capable than ever, and we at Ktech empires will make sure that we aid you to unlock the hidden capabilites.
+
+</li>
 </ul>
+</div>
+
+<div id=CONTACT>
+
+<ul>
+
+<form>
+
+<h2>Contact us</h2>
+
+<label><b>Full name</label>
+
+<input id="full-name" name="full-name" type="text" placeholder="JOHN JEFFREY"><br>
+
+<label>Gmail</label>
+
+<input type="email" placeholder="name@host.com"><br>
+
+<label>Tel</label>
+
+<input id="tel" name="tel" type="tel" placeholder="+000 101-123-456"><br>
+
+<label>Message</label>
+<br>
+
+<textarea></textarea>
+
+<legend>♡</legend>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</ul>
+
 </body>
-    </html>
+
+</html>
